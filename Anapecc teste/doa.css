@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    font-family: Arial
+}
+
+#topo {
+    background: #800000;
+    overflow: hidden;
+    padding: 40px ;
+}
+
+.container {
+    width: 100%; 
+    margin: 0 auto;
+    float: none;
+}
+
+.logo {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.rede {
+    float: left;
+    width: 20%;
+}
+
+.menu {
+    float: center;
+    width: 100%;
+    text-align: center;
+}
+
+.menu li {
+    list-style: none;
+    display: inline-block;
+    padding: 5px 5px;
+    text-transform: uppercase;
+}
+
+.menu li > a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu li > a:hover {
+    background: #751010;
+    padding: 10px; 
+    border-bottom: solid 2px;
+}
+
+#menu {
+    height: 154px;
+    background-color: #333;
+    width: 150px;
+    float: left;
+    
+}
+
+#principal {
+    height: 128px;
+    width: 750px;
+    background-color: #333;
+    float: left;
+    padding-top: 2%;
+}
+
+#principal li {
+    list-style: none;
+}
+
+#evandro {
+    height: 128px;
+    width: 410px;
+    background-color: #333;
+    float: right;
+    padding-top: 2%;
+}
+
+#evandro li {
+    list-style-type: none;
+}
+
+#Footer {
+    height: 17px;
+    background-color: #333;
+    clear: both;
+    text-align: center;
+}
